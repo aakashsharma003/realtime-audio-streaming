@@ -1,3 +1,4 @@
+import { Contributions } from "@/components/Contributions";
 import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
 
       <HeroSection />
+      <Contributions/>
       </div>
     </main>
   );
